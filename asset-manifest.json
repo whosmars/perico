@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/perico/static/css/main.f855e6bc.css",
-    "main.js": "/perico/static/js/main.e03296c3.js",
-    "static/js/453.ed3810f9.chunk.js": "/perico/static/js/453.ed3810f9.chunk.js",
-    "static/media/logo.svg": "/perico/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/perico/static/css/main.ae42ac5f.css",
+    "main.js": "/perico/static/js/main.601d032c.js",
     "index.html": "/perico/index.html",
-    "main.f855e6bc.css.map": "/perico/static/css/main.f855e6bc.css.map",
-    "main.e03296c3.js.map": "/perico/static/js/main.e03296c3.js.map",
-    "453.ed3810f9.chunk.js.map": "/perico/static/js/453.ed3810f9.chunk.js.map"
+    "main.ae42ac5f.css.map": "/perico/static/css/main.ae42ac5f.css.map",
+    "main.601d032c.js.map": "/perico/static/js/main.601d032c.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.e03296c3.js"
+    "static/css/main.ae42ac5f.css",
+    "static/js/main.601d032c.js"
   ]
 }
