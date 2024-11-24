@@ -6,16 +6,9 @@ export const Gallery = (props) => {
     <div id="portfolio" className="text-center">
       <div className="container">
         <div className="section-title">
-<<<<<<< HEAD
           <h2>Galeria</h2>
           <p>
             El trabajo duro en equipo acompañado de un ambiente saludable es la clave de nuestos logros como empresa
-=======
-          <h2>Gallery</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
->>>>>>> f15f3c7031c2414e93ec113bcf66fa50275cce9d
           </p>
         </div>
         <div className="row">
