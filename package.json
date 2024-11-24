@@ -1,7 +1,10 @@
 {
   "name": "landingpage-react-template",
   "private": true,
+<<<<<<< HEAD
   "homepage": "https://whosmars.github.io/perico",
+=======
+>>>>>>> f15f3c7031c2414e93ec113bcf66fa50275cce9d
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -13,8 +16,11 @@
     "smooth-scroll": "^16.1.3"
   },
   "scripts": {
+<<<<<<< HEAD
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+=======
+>>>>>>> f15f3c7031c2414e93ec113bcf66fa50275cce9d
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,8 +40,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "devDependencies": {
     "gh-pages": "^6.2.0"
+=======
+>>>>>>> f15f3c7031c2414e93ec113bcf66fa50275cce9d
   }
 }

@@ -42,10 +42,17 @@ export const Contact = (props) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
+<<<<<<< HEAD
                 <h2>Contacto</h2>
                 <p>
                   Por favor llena el formulario de abajo para contactarnos y
                   nos pondremos en contacto contigo lo antes posible.
+=======
+                <h2>Get In Touch</h2>
+                <p>
+                  Please fill out the form below to send us an email and we will
+                  get back to you as soon as possible.
+>>>>>>> f15f3c7031c2414e93ec113bcf66fa50275cce9d
                 </p>
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>
@@ -57,7 +64,11 @@ export const Contact = (props) => {
                         id="name"
                         name="name"
                         className="form-control"
+<<<<<<< HEAD
                         placeholder="Nombre"
+=======
+                        placeholder="Name"
+>>>>>>> f15f3c7031c2414e93ec113bcf66fa50275cce9d
                         required
                         onChange={handleChange}
                       />
@@ -71,7 +82,11 @@ export const Contact = (props) => {
                         id="email"
                         name="email"
                         className="form-control"
+<<<<<<< HEAD
                         placeholder="Correo Electronico"
+=======
+                        placeholder="Email"
+>>>>>>> f15f3c7031c2414e93ec113bcf66fa50275cce9d
                         required
                         onChange={handleChange}
                       />
@@ -85,7 +100,11 @@ export const Contact = (props) => {
                     id="message"
                     className="form-control"
                     rows="4"
+<<<<<<< HEAD
                     placeholder="Mensaje"
+=======
+                    placeholder="Message"
+>>>>>>> f15f3c7031c2414e93ec113bcf66fa50275cce9d
                     required
                     onChange={handleChange}
                   ></textarea>
@@ -93,17 +112,28 @@ export const Contact = (props) => {
                 </div>
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">
+<<<<<<< HEAD
                   Enviar Mensaje
+=======
+                  Send Message
+>>>>>>> f15f3c7031c2414e93ec113bcf66fa50275cce9d
                 </button>
               </form>
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
+<<<<<<< HEAD
               <h3>Información de Contacto</h3>
               <p>
                 <span>
                   <i className="fa fa-map-marker"></i> Dirección
+=======
+              <h3>Contact Info</h3>
+              <p>
+                <span>
+                  <i className="fa fa-map-marker"></i> Address
+>>>>>>> f15f3c7031c2414e93ec113bcf66fa50275cce9d
                 </span>
                 {props.data ? props.data.address : "loading"}
               </p>
@@ -111,7 +141,11 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
+<<<<<<< HEAD
                   <i className="fa fa-phone"></i> Telefono
+=======
+                  <i className="fa fa-phone"></i> Phone
+>>>>>>> f15f3c7031c2414e93ec113bcf66fa50275cce9d
                 </span>{" "}
                 {props.data ? props.data.phone : "loading"}
               </p>
@@ -119,7 +153,11 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
+<<<<<<< HEAD
                   <i className="fa fa-envelope-o"></i> Correo
+=======
+                  <i className="fa fa-envelope-o"></i> Email
+>>>>>>> f15f3c7031c2414e93ec113bcf66fa50275cce9d
                 </span>{" "}
                 {props.data ? props.data.email : "loading"}
               </p>
