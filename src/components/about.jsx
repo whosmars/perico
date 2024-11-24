@@ -6,8 +6,12 @@ export const About = (props) => {
       <div className="container">
         <div className="row">
           <div className="col-xs-12 col-md-6">
-            {" "}
-            <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
+          <img
+              src="img/about.jpg"
+              className="img-responsive"
+              alt=""
+              style={{ width: "50%", margin: "0 auto", display: "block" }}
+            />
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
