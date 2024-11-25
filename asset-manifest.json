@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/perico/static/css/main.ae42ac5f.css",
-    "main.js": "/perico/static/js/main.9d260ffd.js",
+    "main.js": "/perico/static/js/main.d61110f0.js",
     "index.html": "/perico/index.html",
     "main.ae42ac5f.css.map": "/perico/static/css/main.ae42ac5f.css.map",
-    "main.9d260ffd.js.map": "/perico/static/js/main.9d260ffd.js.map"
+    "main.d61110f0.js.map": "/perico/static/js/main.d61110f0.js.map"
   },
   "entrypoints": [
     "static/css/main.ae42ac5f.css",
-    "static/js/main.9d260ffd.js"
+    "static/js/main.d61110f0.js"
   ]
 }

@@ -244,9 +244,13 @@ header .intro-text {
   padding-bottom: 200px;
   text-align: center;
 }
+#header p {
+  font-weight: bold;
+}
 /* Features Section */
 #features {
   background: #f6f6f6;
+  padding: 55px 30px;
 }
 #features i.fa {
   font-size: 38px;
@@ -438,6 +442,9 @@ header .intro-text {
   font-size: 15px;
   font-weight: 600;
   color: #666;
+}
+#testimonials .section-title {
+  margin-bottom: 30px;
 }
 /* Team Section */
 #team {
