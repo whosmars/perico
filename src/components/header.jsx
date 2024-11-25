@@ -14,11 +14,10 @@ export const Header = (props) => {
                 </h1>
                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
                 <a
-                  href="/example.pdf" // Ruta al archivo PDF
-                  className="btn btn-custom btn-lg"
-                  download="example.pdf" // Nombre del archivo descargado
+                  href="#testimonials"
+                  className="btn btn-custom btn-lg page-scroll"
                 >
-                  Conoce más
+                  Conoce mas
                 </a>{" "}
               </div>
             </div>
