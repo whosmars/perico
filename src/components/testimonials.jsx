@@ -2,7 +2,7 @@ import React from "react";
 
 export const Testimonials = (props) => {
   // URL of the PDF file you want to embed
-  const pdfUrl = "/example.pdf";
+  const pdfUrl = "/perico/example.pdf";
 
   return (
     <div id="testimonials">
