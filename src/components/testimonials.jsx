@@ -1,29 +1,37 @@
 import React from "react";
 
 export const Testimonials = (props) => {
+  // URL of the PDF file you want to embed
+  const pdfUrl = "/example.pdf";
+
   return (
     <div id="testimonials">
       <div className="container">
         <div className="section-title text-center">
-          <h2>Testimonios de Clientes</h2>
+          <h2>UNAMARKET</h2>
         </div>
         <div className="row">
-          {props.data
-            ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-4">
-                  <div className="testimonial">
-                    <div className="testimonial-image">
-                      {" "}
-                      <img src={d.img} alt="" />{" "}
-                    </div>
-                    <div className="testimonial-content">
-                      <p>"{d.text}"</p>
-                      <div className="testimonial-meta"> - {d.name} </div>
-                    </div>
-                  </div>
-                </div>
-              ))
-            : "loading"}
+          <div className="col-md-12 text-center">
+            <p>
+              Consulta toda la información de nuestro proyecto en el siguiente PDF:
+            </p>
+            <a
+              href={pdfUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary"
+            >
+              Consultar información en PDF
+            </a>
+            <div style={{ marginTop: "40px" }}>
+              <img
+                src="img/about-1.jpg"
+                className="img-responsive"
+                alt=""
+                style={{ width: "20%", margin: "0 auto", display: "block" }}
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
